@@ -1,0 +1,88 @@
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.content {
+    max-width: 45%;
+}
+.text-content {
+    max-width: 45%;
+    font-size: 14px;
+    color: #333;
+}
+.subtitle {
+    font-size: 14px;
+    color: gray;
+}
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+.description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.counter {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
+
+</style>
