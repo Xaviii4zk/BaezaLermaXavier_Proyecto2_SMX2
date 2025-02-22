@@ -1,27 +1,67 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 2</title>
+    <title>Projecte 2 - CARS</title>
+    <link rel="icon" href="img/iconos/icono.png">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link rel="stylesheet" href="fuentes.css">
 </head>
 <body>
-    <header>
-        <div class="logo">CARSPORT <img src="Imagenes/Frame 2.png" alt=""></div>
-    </header>
-    <hr>
-    <section class="hero">
-        <div class="content">
-            <p class="subtitle">BY CARSPORT</p>
-            <h1>L’EXPÉRIENCE EXTRAORDINAIRE</h1>
-            <p class="description">Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T...</p>
-            <button class="btn">DÉCOUVRIR</button>
-            <span class="counter">01 / 06</span>
+
+    <nav class="nav">
+        <div class="nav__logo">
+            CARSPORT
         </div>
-        <div class="image">
-            <img src="Imagenes/coche.png" alt="Porsche 911 S/T">
+        <ul class="nav__lista">
+            <li class="nav__item">
+                <a class="nav__enlace" href="">ACCEUIL</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="">VOITURES</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="">CATÉGORIES</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__enlace" href="">CONTACT</a>
+            </li>
+        </ul>
+        <div class="nav__iconos">
+            <ul class="nav__lista2">
+                <li class="nav__item2">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </li>
+                <li class="nav__item2">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </li>
+            </ul>
         </div>
-    </section>
-</body>
-</html>
+    </nav>
+   <hr class="espacios_en_nav">
+
+   <header class="header">
+        <div class="header__contenido">
+            <div class="header__div">
+                <p class="header__titulo">BY CARSPORT</p>
+                <h1 class="tituloo">L´EXPERIENCE EXTRAORDINAIRE</h1>
+            </div>
+            <div class="header__div div2">
+                <P class="header__párrafo">Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</P>
+                <div class="div2__apartado">
+                    <button class="boton">DESCUBRIR</button>
+                    <div class="barra-avance">
+                        01 / 06
+                        <div class="barra">
+                            <div class="raya"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="imagen__header" src="Imagenes/coche.png" alt="Porsche">
+   </header>
+   <hr class="divison_header">
