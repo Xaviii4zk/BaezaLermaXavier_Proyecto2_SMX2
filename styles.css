@@ -338,3 +338,124 @@ strong {
     margin: 50px 0;
     margin-top: 120px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-seccion-titulo {
+    font-size: 4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.footer-correo-input {
+    margin: 20px 0;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    outline: 0;
+    color: #333;
+}
+
+#footer-correo-icono {
+    position: relative;
+    right: 20px;
+    font-size: 1em;
+}
+
+.footer-correo-input::placeholder {
+    color: #ccc;
+}
+
+.footer-metodos-pago {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.footer-segunda-parte {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-primera-sesion {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-menu-navegacion {
+    width: 100px;
+}
+
+.footer-titulo-menu, .footer-titulo-productos {
+    margin-bottom: 30px;
+}
+
+.footer-lista-menu, .footer-lista-productos {
+    padding: 0;
+}
+
+.footer-menu-item, .footer_producto_item {
+    list-style: none;
+    padding: 5px 0;
+    width: 100px;
+}
+
+.footer-botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+}
+
+.footer-boton-uno {
+    margin-top: 50px;
+}
+
+.footer-boton-dos {
+    width: 150px;
+}
+
+.footer-productos-tienda {
+    width: 120px;
+}
+
+.footer-lista-productos {
+    width: 150px;
+}
+
+.footer_producto_item {
+    width: 150px;
+}
+
+.footer-segunda-sesion {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-iconos-sociales {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 70px;
+    margin-left: 30px;
+}
+
+.footer-expandir {
+    transform: scale(1.5);
+}
